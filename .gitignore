@@ -1,0 +1,28 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Virtual environments / local deps
+.venv/
+venv/
+.deps/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Run artifacts (keep folder via .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Personal / private sample photos — do not publish
+samples/*_desktop.*
+samples/*_real.*
+
+# OS / editor
+.DS_Store
